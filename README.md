@@ -11,15 +11,15 @@
 
 ## Résumé
 
-Ce dépôt contient le pipeline d'analyse **entièrement reproductible** d'une étude cas-témoins (654 femmes, 3 sites) évaluant l'effet causal de l'affiliation aux UDAM. Les groupes affiliées / non affiliées n'étant pas comparables au départ (les affiliées sont plus pauvres et moins instruites), la comparaison est rendue équitable par un **score de propension** et des **poids de recouvrement**, qui gèrent aussi une violation de positivité (un site sans aucune affiliée). L'analyse mesure ensuite l'effet moyen, sa distribution, sa robustesse, et explique un bénéfice sur le recours masqué par la composition géographique.
+Ce dépôt contient le pipeline d'analyse d'une étude cas-témoins (654 femmes, 3 sites) évaluant l'effet causal de l'affiliation aux UDAM. Les groupes affiliées / non affiliées n'étant pas comparables au départ (les affiliées sont plus pauvres et moins instruites), la comparaison est rendue équitable par un **score de propension** et des **poids de recouvrement**, qui gèrent aussi une violation de positivité (un site sans aucune affiliée). L'analyse mesure ensuite l'effet moyen, sa distribution, sa robustesse, et explique un bénéfice sur le recours masqué par la composition géographique.
 
 ## Principaux résultats
 
 | Résultat | Effet (ATO) | IC 95 % | Robustesse |
 |---|---|---|---|
-| Dépense directe (out-of-pocket) | **−28 260 FCFA** | -37 377 ; -19 427 | élevée (valeur E = 3,1 ; Γ* = 3,45) |
-| Dépense excessive (Tukey, k = 1) | **−5,5 pts** | significatif | élevée (valeur E ≈ 9) |
-| Protection le long de la distribution | pente **−22 909 FCFA** (90ᵉ vs 10ᵉ) | -44 405 ; -1 998 | croissante vers la queue |
+| Dépense directe (out-of-pocket) | **-28 260 FCFA** | -37 377 ; -19 427 | élevée (valeur E = 3,1 ; Γ* = 3,45) |
+| Dépense excessive (Tukey, k = 1) | **-5,5 pts** | significatif | élevée (valeur E ≈ 9) |
+| Protection le long de la distribution | pente **-22 909 FCFA** (90ᵉ vs 10ᵉ) | -44 405 ; -1 998 | croissante vers la queue |
 | Recours aux soins (score de cascade) | **+0,305 étape** | +0,157 ; +0,460 | suggéré (Γ* ≈ 1) |
 
 **Deux messages :** (1) l'assurance protège surtout contre les dépenses les plus élevées ; (2) son bénéfice sur le recours, invisible en analyse brute, se révèle après traitement d'une non-comparabilité géographique.
