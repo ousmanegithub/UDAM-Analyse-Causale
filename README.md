@@ -17,9 +17,9 @@ Ce dépôt contient le pipeline d'analyse **entièrement reproductible** d'une �
 
 | Résultat | Effet (ATO) | IC 95 % | Robustesse |
 |---|---|---|---|
-| Dépense directe (out-of-pocket) | **−28 260 FCFA** | −37 377 ; −19 427 | élevée (valeur E = 3,1 ; Γ* = 3,45) |
+| Dépense directe (out-of-pocket) | **−28 260 FCFA** | -37 377 ; -19 427 | élevée (valeur E = 3,1 ; Γ* = 3,45) |
 | Dépense excessive (Tukey, k = 1) | **−5,5 pts** | significatif | élevée (valeur E ≈ 9) |
-| Protection le long de la distribution | pente **−22 909 FCFA** (90ᵉ vs 10ᵉ) | −44 405 ; −1 998 | croissante vers la queue |
+| Protection le long de la distribution | pente **−22 909 FCFA** (90ᵉ vs 10ᵉ) | -44 405 ; -1 998 | croissante vers la queue |
 | Recours aux soins (score de cascade) | **+0,305 étape** | +0,157 ; +0,460 | suggéré (Γ* ≈ 1) |
 
 **Deux messages :** (1) l'assurance protège surtout contre les dépenses les plus élevées ; (2) son bénéfice sur le recours, invisible en analyse brute, se révèle après traitement d'une non-comparabilité géographique.
@@ -39,18 +39,16 @@ Ce dépôt contient le pipeline d'analyse **entièrement reproductible** d'une �
 ├── effets_distributionnels.ipynb    # effets quantiles (le « bouclier »)
 ├── masquage.ipynb                   # décomposition + test des zones comparables
 ├── outputs/
-│   └── figures/                            # figures (PNG 150 dpi) — voir section Figures
+│   └── figures/                            # figures (PNG 150 dpi) - voir section Figures
 
 ```
-
-Chaque notebook charge la sortie du précédent : la chaîne est **strictement linéaire** et s'exécute de bout en bout.
 
 ---
 
 ## Installation et reproduction
 
 ```bash
-# 1. Cloner le dépôt
+# Cloner le dépôt
 git https://github.com/ousmanegithub/UDAM-Analyse-Causale.git
 cd UDAM-Analyse-Causale
 
@@ -92,32 +90,32 @@ pip install -r requirements.txt
 
 ## Figures (`outputs/figures/`)
 
-### Figure 1 — Diagramme de recouvrement
+### Figure 1 - Diagramme de recouvrement
 Distribution du score de propension des affiliées et des non affiliées. La masse de témoins proche de zéro correspond aux femmes de Fatick, sans contrepartie affiliée (violation de positivité).
 
 ![Diagramme de recouvrement](outputs/figures/recouvrement.png)
 
-### Figure 2 — Équilibre des covariables (*Love plot*)
-Différence standardisée de chaque covariable avant et après pondération : tous les déséquilibres s'effondrent vers zéro (|SMD| max 0,62 → 0,003).
+### Figure 2 - Équilibre des covariables (*Love plot*)
+Différence standardisée de chaque covariable avant et après pondération : tous les déséquilibres s'effondrent vers zéro (|SMD| max 0,62 -> 0,003).
 
 ![Love plot](outputs/figures/love_plot.png)
 
-### Figure 3 — Effets moyens
+### Figure 3 - Effets moyens
 Effets de l'affiliation sur les résultats (dépense directe, dépenses excessives, recours), sur une échelle commune orientée « bénéfice ».
 
 ![Effets moyens](outputs/figures/effets_moyens.png)
 
-### Figure 4 — Analyse de sensibilité (valeurs E)
-Robustesse de chaque effet à un facteur de confusion non mesuré. Plus la barre est longue, plus il faudrait un facteur puissant — donc improbable — pour effacer l'effet.
+### Figure 4 - Analyse de sensibilité (valeurs E)
+Robustesse de chaque effet à un facteur de confusion non mesuré. Plus la barre est longue, plus il faudrait un facteur puissant donc improbable pour effacer l'effet.
 
 ![Valeurs E](outputs/figures/valeurs_e.png)
 
-### Figure 5 — Effets distributionnels
+### Figure 5 - Effets distributionnels
 Protection financière le long de la distribution des dépenses : l'effet (protection) croît vers la queue, où les dépenses sont les plus élevées.
 
 ![Courbe quantile](outputs/figures/courbe_quantile.png)
 
-### Figure 6 — Décomposition du masquage
+### Figure 6 - Décomposition du masquage
 Le bénéfice sur le recours, quasi nul en brut, réapparaît surtout dès qu'on tient compte de la géographie (site de Fatick).
 
 ![Masquage](outputs/figures/masquage.png)
