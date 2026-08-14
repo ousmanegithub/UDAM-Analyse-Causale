@@ -1,0 +1,7 @@
+﻿résultat,taille_effet,E_estimation,E_IC
+"Dépense excessive k=0,5",RR=0.39,4.61,2.22
+"Dépense excessive k=1,0",RR=0.21,9.07,3.02
+"Dépense excessive k=1,5",RR=0.27,6.88,1.39
+Continuum complet,RR=1.46,2.29,1.71
+Dépense directe,d=0.68,3.13,2.44
+Score de cascade,d=0.40,2.22,1.72

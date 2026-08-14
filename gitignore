@@ -1,0 +1,5 @@
+# Checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Données confidentielles (ne pas versionner)
+Enabel_DATA_LABELS_2026-06-20_1834.csv

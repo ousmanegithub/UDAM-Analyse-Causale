@@ -1,0 +1,11 @@
+﻿,SMD_avant,SMD_apres
+age,-0.226,-0.001
+mariee,0.039,-0.002
+revenu_ord,-0.385,0.002
+instruction_ord,-0.623,-0.003
+agri_elevage,0.077,-0.0
+nb_grossesses,0.098,0.001
+nb_enfants,0.046,-0.001
+antecedent_complication,0.158,0.002
+accouchement_dystocique,0.082,-0.001
+wealth_index,-0.476,-0.002

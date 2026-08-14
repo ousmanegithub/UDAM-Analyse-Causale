@@ -1,0 +1,7 @@
+﻿résultat,test,Gamma_star
+Dépense directe,rangs signés,3.45
+Score de cascade,rangs signés,1.0
+"Dépense excessive k=0,5","signes (a=32, b=12)",1.5
+"Dépense excessive k=1,0","signes (a=13, b=5)",1.05
+"Dépense excessive k=1,5","signes (a=6, b=4)",1.0
+Continuum complet,"signes (a=56, b=66)",1.0

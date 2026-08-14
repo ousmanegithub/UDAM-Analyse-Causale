@@ -1,0 +1,9 @@
+﻿résultat,ajustement,effet,IC_bas,IC_haut,signif
+Score de cascade,Brut,0.056,-0.072,0.167,—
+Score de cascade,Géographie seule,0.268,0.111,0.418,✓
+Score de cascade,Socio-éco seul,0.186,0.067,0.328,✓
+Score de cascade,Ajustement complet,0.305,0.173,0.465,✓
+Continuum complet,Brut,0.006,-0.065,0.082,—
+Continuum complet,Géographie seule,0.159,0.066,0.256,✓
+Continuum complet,Socio-éco seul,0.089,0.009,0.167,✓
+Continuum complet,Ajustement complet,0.184,0.095,0.277,✓
