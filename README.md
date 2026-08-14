@@ -1,4 +1,4 @@
-# Assurance maladie et maternité au Sénégal rural — Analyse causale des UDAM
+# Assurance maladie et maternité au Sénégal rural - Analyse causale des UDAM
 
 > Impact de l'affiliation à une Unité Départementale d'Assurance Maladie (UDAM) sur la **protection financière** et le **recours aux soins** des femmes enceintes, par pondération de recouvrement (*overlap weights*).
 
